@@ -6,3 +6,10 @@ h1{
     color:rgba(26, 121, 121, 0.849);
 }
 
+.pepe{
+    
+    width: 40px;
+    background: red;
+    text-align: center;
+    padding: 10px;
+}

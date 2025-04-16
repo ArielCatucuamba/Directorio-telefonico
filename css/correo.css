@@ -1,0 +1,68 @@
+/* Estilos generales */
+h1{
+    color:rgba(1, 96, 96, 0.849);
+}
+
+body {
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;/*estilo heredable para las letras*/
+    background-color: #e3f2fd; /* Celeste claro */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal con mayor tamaño */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    border: 3px solid #1565c0; /* Azul fuerte */
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Encabezado */
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* Barra de navegación */
+nav {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #1565c0;
+    background-color: #bbdefb;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0d47a1;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+nav button {
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Caja de contenido más grande */
+.content-box {
+    width: 95%;
+    height: 300px;
+    margin: 20px auto;
+    border: 3px solid #0d47a1;
+}
